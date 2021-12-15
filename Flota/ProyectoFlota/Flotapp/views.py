@@ -16,3 +16,7 @@ def misvehiculos(request):
 def documentacion(request):
 
     return render(request, 'Flotapp/docs.html')
+
+def nuevoVehiculo(request):
+
+    return render(request, 'Flotapp/nuevo_vehiculo.html')
