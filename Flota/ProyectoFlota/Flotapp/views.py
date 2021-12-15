@@ -13,10 +13,14 @@ def misvehiculos(request):
 
     return render(request, 'Flotapp/mis_vehiculos.html')
 
-def documentacion(request):
+def service(request):
 
-    return render(request, 'Flotapp/docs.html')
+    return render(request, 'Flotapp/service.html')
 
 def nuevoVehiculo(request):
 
     return render(request, 'Flotapp/nuevo_vehiculo.html')
+
+def home(request):
+
+    return render(request, 'Flotapp/home.html')

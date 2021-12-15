@@ -7,8 +7,10 @@ urlpatterns = [
 
     path('mis_vehiculos', views.misvehiculos),
 
-    path('documents', views.documentacion),
+    path('service', views.service),
 
     path('nuevo_vehiculo', views.nuevoVehiculo),
+
+    path('home', views.home),
 
 ]
