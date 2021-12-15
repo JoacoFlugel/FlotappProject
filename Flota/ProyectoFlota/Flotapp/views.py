@@ -9,12 +9,10 @@ def inicio(request):
     #return HttpResponse('Pagina de inicio')
     return render(request, 'Flotapp/inicio.html')
 
-def flota(request):
+def misvehiculos(request):
 
-    #return HttpResponse('tablero de móviles')
-    return render(request, 'Flotapp/flota.html')
+    return render(request, 'Flotapp/mis_vehiculos.html')
 
 def documentacion(request):
 
-    #return HttpResponse('tablero de documentación')
     return render(request, 'Flotapp/docs.html')
